@@ -1,0 +1,141 @@
+.container {
+    display: inline-block;
+    width: 100%;
+    background-color: hsl(218, 28%, 13%);
+    
+    
+}
+
+    header {
+        display: inline-block;
+        width: 100%;
+        padding: 30px;
+        /* border: 1px solid white; */
+        
+    }
+
+        header > img {
+            display: inline-block;
+            float: left;
+            height: 40px;
+        }
+
+        .menu {
+            display: inline-block;
+            float: right;
+            line-height: 40px;
+            
+            
+        }
+
+        .menu > a {
+            text-decoration: none;
+            color: white;
+            /* border: 1px solid white; */
+            padding: 5px 20px;
+        }
+
+    main {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+
+    .first-box {
+        display: inline-block;
+        width: 800px;
+        padding: 20px 0px;
+        border: 1px solid white;
+    }
+
+    .first-box > img {
+        
+    }
+
+    .first-box > h1 {
+        color: white;
+        width: 100%;
+        margin: 30px 0px; 
+        font-size: 40px;
+    }
+
+    .first-box > p {
+        color: white;
+        width: 70%;
+        margin-left: 15%;
+        font-size: 20px;
+        
+        
+    }
+
+    .first-box > .get-started {
+        display: inline-block;
+        width: 20%;
+        background-color: hsl(198, 60%, 50%);
+        border-radius: 40px;
+        padding: 10px 20px;
+        margin: 20px 0px;
+        color: white;
+        text-decoration: none;
+        
+    }
+
+    
+    .second-box {
+        display: inline-block;
+        width: 800px;
+        padding: 20px 0px; 
+        border: 1px solid white;
+        color: white;
+    }
+
+    .second-box > .icons {
+        height: 20px;
+    }
+
+    .second-box > .row1  {
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+    }
+
+        #box1,
+        #box2,
+        #box3,
+        #box4 {
+            display: inline-block;
+            width: 49%;
+            height: 200px;
+            border: 1px solid white;
+            
+        }
+
+
+
+    .second-box > .row2 {
+        
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+
+    }
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
