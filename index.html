@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fylo</title>
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -35,13 +36,13 @@
                     <div id="box1">
                         <img class="icons" src="./images/icon-access-anywhere.svg" alt="device drawing">
                         <h2 class="h2">Access your files, anywhere</h2>
-                        <p class="secon-box-texts">text1</p>
+                        <p class="second-box-texts">The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
                     </div>
 
                     <div id="box2">
                         <img class="icons" src="./images/icon-security.svg" alt="shield drawing">
                         <h2 class="h2">Security you can trust</h2>
-                        <p class="secon-box-texts">text2</p>
+                        <p class="second-box-texts">2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
                     </div>
                 </div>
 
@@ -49,36 +50,40 @@
                     <div id="box3">
                         <img class="icons" src="./images/icon-collaboration.svg" alt="group of people collaborating">
                         <h2 class="h2">Real-time collaboration</h2>
-                        <p class="secon-box-texts">text3</p>
+                        <p class="second-box-texts">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
                     </div>
 
                     <div id="box4">
                         <img class="icons" src="./images/icon-any-file.svg" alt="folders drawing">
                         <h2 class="h2">Store any type of files</h2>
-                        <p class="secon-box-texts">text4</p>
+                        <p class="second-box-texts">Whether you're sharig holidays photos or work documents, Fylo has you covered allowing for all file types to securely stored and shared.</p>
                     </div>
                 </div>
             </div>
 
             <div class="third-box">
-                <img src="#" alt="drwaing of people talking">
-                <h1>Stay productive, wherever you are</h1>
-                <p>Never let</p>
-                <p>Securily share</p>
-                <a href="#">See how Fylo works</a>
+                <div class="stay-productive-img">
+                    <img id="productive-image" src="./images/illustration-stay-productive.png" alt="drwaing of people talking">
+                </div>
+                <div class="stay-productive-text">
+                    <h1 id="productive-h1">Stay productive, wherever you are</h1>
+                    <p>Never let location be an issue when accesign your files. Fylo has you covered for all your file storage needs.</p>
+                    <p>Securily share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+                    <a href="#">See how Fylo works <img src="./images/icon-arrow.svg"></a>
+                </div>
             </div>
 
             <div class="quote-boxes">
-                <img src="#" alt="kabutes">
+                <!-- <img src="#" alt="kabutes"> -->
 
                 <div class="quote-cards">
                     <div class="card-one">
-                        <p></p>
-                        <div class="person-one">
-                            <img src="#" alt="photo1">
-                            <div class="name-one">
-                                <h3>Satish Patel</h3>
-                                <p></p>
+                        <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                        <div class="name-card" class="person-one">
+                            <img class="profile-photo" src="./images/profile-1.jpg" alt="photo1">
+                            <div class="name-position" class="name-one">
+                                <h3 class="h3">Satish Patel</h3>
+                                <p class="h3-p">Founder &amp; CEO Huddle</p>
                             </div>
                         
                         </div>
@@ -88,12 +93,12 @@
 
                 <div class="quote-cards">
                     <div class="card-two">
-                        <p></p>
-                        <div class="person-two">
-                            <img src="#" alt="photo2">
-                            <div class="name-two">
-                                <h3>Bruce McKenzie</h3>
-                                <p></p>
+                        <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                        <div class="name-card" class="person-two">
+                            <img class="profile-photo" src="./images/profile-2.jpg" alt="photo2">
+                            <div class="name-position" class="name-two">
+                                <h3 class="h3">Bruce McKenzie</h3>
+                                <p class="h3-p">Founder &amp; CEO Huddle</p>
                             </div>
                         
                         </div>
@@ -103,12 +108,12 @@
 
                 <div class="quote-cards">
                     <div class="card-three">
-                        <p></p>
-                        <div class="person-three">
-                            <img src="#" alt="photo23">
-                            <div class="name-three">
-                                <h3>Iva Boyd</h3>
-                                <p></p>
+                        <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                        <div class="name-card" class="person-three">
+                            <img class="profile-photo" src="./images/profile-3.jpg" alt="photo23">
+                            <div class="name-position" class="name-three">
+                                <h3 class="h3">Iva Boyd</h3>
+                                <p class="h3-p">Founder &amp; CEO Huddle</p>
                             </div>
                         
                         </div>
@@ -119,26 +124,72 @@
             </div>
 
             <form class="form">
-                <h1>Get early access today</h1>
-                <p></p>
-                <div class="email-input">
-                    <input id="email" type="email" placeholder="email@gmail.com">
-                </div>
-                <div class="button">
-                    <input id="btn" type="submit" value="Get started for free">
+                <div class="form-border">
+                    <h1 id="form-title">Get early access today</h1>
+                    <p id="form-text">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+                    <div class="form-input">
+                        <div class="email-input">
+                            <input id="email" type="email" placeholder="email@gmail.com">
+                        </div>
+                        <div class="button">
+                            <a href="#" id="btn" type="submit">Get started for free<a>
+                        </div>
+                    </div>
                 </div>
             </form>
 
         </main>
 
         <footer>
-            <div class="footer-logo">
-                <img src="#" alt="logo">
-            </div>
-            <div class="information">
+            
+                <div class="footer-logo">
+                    <img id="footer-logo" src="./images/logo.svg" alt="logo">
+                </div>
 
+                <div class="information-row">
 
-            </div>
+                    <div class="location-column">
+                        <img id="location-icon" src="./images/icon-location.svg" alt="map icon">
+                        <a id="location-text" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ipsa dolores veritatis beatae? Vero in iusto molestiae veniam? Mollitia, sint!</a>          
+                    </div>
+
+                    <div class="contact-details-column">
+                        <div class="phone-row">
+                            <img id="phone-img" src="./images/icon-phone.svg" alt="phone icon">
+                            <a id="phone-number" class="footer-links" href="#">+1-543-123-4567</a>
+                        </div>
+                        <div class="email-row">
+                            <img id="email-img" src="./images/icon-email.svg" alt="email icon">
+                            <a id="email-address" class="footer-links" href="#">example@fylo.com</a>
+                        </div>
+
+                    </div>
+
+                    <div class="footer-nav">
+                        <ul class="nav1">
+                            <li><a class="footer-menu" href="#">About Us</a></li>
+                            <li><a class="footer-menu" href="#">Job</a></li>
+                            <li><a class="footer-menu" href="#">Press</a></li>
+                            <li><a class="footer-menu" href="#">Blog</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="footer-nav">
+                        <ul class="nav2">
+                            <li><a class="footer-menu" href="#">Contact Us</a></li>
+                            <li><a class="footer-menu" href="#">Terms</a></li>
+                            <li><a class="footer-menu" href="#">Privacy</a></li>
+                        </ul>
+                    
+                    </div>
+                    <div class="social-media">
+                        <a href="#" target="_blank" class="fa fa-facebook"></a>
+                        <a href="#" target="_blank" class="fa fa-twitter"></a>
+                        <a href="#" target="_blank" class="fa fa-instagram"></a>
+                    </div>
+
+                </div>
+            
         </footer>
 
 
